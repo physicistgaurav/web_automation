@@ -8,8 +8,8 @@ email_input=msg_driver.find_element_by_id("email")
 password_input=msg_driver.find_element_by_id("pass")
 login_button = msg_driver.find_element_by_name("login")
 
-email ="gaurav_rijal@rocketmail.com"
-password = "lizardking@27"
+email ="your email"
+password = "your password"
 
 email_input.send_keys(email)
 password_input.send_keys(password)
@@ -32,4 +32,3 @@ pyautogui.write("Deepesh")
 pyautogui.write("Deepesh")
 pyautogui.click()
 pyautogui.write("deepesh")
-# pyautogui.write("Ngamesh")
